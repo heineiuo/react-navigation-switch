@@ -1,0 +1,19 @@
+{
+  "name": "react-navigation-switch",
+  "version": "1.0.0",
+  "description": "`createSwitchNavigator` for react-navigation >= 5",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heineiuo/react-navigation-switch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heineiuo/react-navigation-switch/issues"
+  },
+  "homepage": "https://github.com/heineiuo/react-navigation-switch#readme"
+}
