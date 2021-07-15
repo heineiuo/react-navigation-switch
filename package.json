@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "`createSwitchNavigator` for react-navigation >= 5",
   "main": "index.js",
-  "scripts": {
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/heineiuo/react-navigation-switch.git"
@@ -15,5 +13,19 @@
   "bugs": {
     "url": "https://github.com/heineiuo/react-navigation-switch/issues"
   },
-  "homepage": "https://github.com/heineiuo/react-navigation-switch#readme"
+  "peerDependencies": {
+    "@react-navigation/native": ">=5",
+    "react-native": "*",
+    "react-native-safe-area-context": "*"
+  },
+  "browserDependencies": {
+    "react-native": "*",
+    "@react-navigation/native": ">=5",
+    "react-native-safe-area-context": "*"
+  },
+  "homepage": "https://github.com/heineiuo/react-navigation-switch#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.14",
+    "@types/react-native": "^0.64.12"
+  }
 }
