@@ -225,7 +225,6 @@ type SwitchHeaderProps = {
 };
 
 function Header(props: SwitchHeaderProps) {
-  console.log("header props", props);
   const { scene, layout } = props;
   const { route, descriptor } = scene;
   const { name } = route;
