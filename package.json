@@ -1,6 +1,6 @@
 {
   "name": "react-navigation-switch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "`createSwitchNavigator` for react-navigation >= 5",
   "main": "node_modules/expo/AppEntry.js",
   "types": "lib/typescript/index.d.ts",
@@ -34,6 +34,7 @@
     "url": "https://github.com/heineiuo/react-navigation-switch/issues"
   },
   "peerDependencies": {
+    "react-native-safe-area-context": "*",
     "@react-navigation/native": ">=5"
   },
   "homepage": "https://github.com/heineiuo/react-navigation-switch#readme",
