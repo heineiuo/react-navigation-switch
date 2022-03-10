@@ -215,12 +215,7 @@ type SwitchHeaderProps = {
    */
   scene: {
     route: Route<string>;
-    descriptor: Descriptor<
-      ParamListBase,
-      string,
-      SwitchNavigationState<ParamListBase>,
-      SwitchHeaderOptions
-    >;
+    descriptor: Descriptor<any, any, any>;
   };
 };
 
