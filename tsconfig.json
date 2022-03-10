@@ -1,35 +1,6 @@
 {
+  "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "target": "esnext",
-    "lib": [
-      "webworker",
-      "es2019",
-      "dom",
-      "esnext.asynciterable",
-      "dom.iterable",
-      "esnext"
-    ],
-    "outDir": "./",
-    "declaration": true,
-    "allowJs": false,
-    "jsx": "react-jsx",
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "amd",
-    "moduleResolution": "node",
-    "downlevelIteration": true,
-    "resolveJsonModule": true,
-    "isolatedModules": false,
-    "emitDeclarationOnly": true,
-    "noEmit": false,
-  },
-  "include": [
-    "**/*"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+    "strict": true
+  }
 }
